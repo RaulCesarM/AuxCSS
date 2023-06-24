@@ -1,0 +1,28 @@
+body {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f1f1f1;
+  }
+  #dropzone {
+    width: 65%;
+    height: 65%;
+    border: 2px dashed #ccc;
+    text-align: center;
+    line-height: 300px;
+    background-color: white;
+  }
+  #dragged-image {
+    position: absolute;
+  }
+  #css-code {
+    margin-top: 20px;
+    white-space: pre-wrap;
+  }
+  #transparency-range,
+  #border-radius-range {
+    margin-top: 10px;
+  }
